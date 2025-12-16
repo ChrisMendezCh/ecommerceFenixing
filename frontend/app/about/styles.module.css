@@ -1,0 +1,36 @@
+.seccion {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenido {
+  display: flex;
+  align-items: flex-start;
+}
+
+.texto {
+  flex: 1;
+}
+
+.imagen {
+  flex: 1;
+  position: relative;
+}
+
+.imgResponsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contenido {
+    flex-direction: column;
+  }
+  
+  .imagen {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}

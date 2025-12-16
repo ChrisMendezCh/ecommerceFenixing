@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+build/
+
+# .NET
+bin/
+obj/
+
+# Variables de entorno
+.env
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
